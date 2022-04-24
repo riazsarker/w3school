@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(162, 165, 162);
+}
+
+header {
+    height: 90px;
+    background-color: rgb(226, 78, 78);
+}
+
+.navimage {
+    width: 50px;
+    height: 50px;
+    margin-top: 13px;
+}
+
+.nav-left li a {
+    color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom:
+}
+
+.nav-left li {
+    display: inline-block;
+}
+
+.nav-right li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav-right {
+    display: flex;
+    padding: 10px;
+}
+
+.login button {
+    margin-top: 10px;
+    background-color: #059862;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btw {
+    height: 20px;
+    width: 40px;
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.webcolor {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(238, 20, 191);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wccenter {
+    margin: auto;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.hteg {
+    color: #059862;
+    font-size: 50px;
+}
+
+.searchin {
+    position: absolute;
+    left: 40px;
+}
+
+.search {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.btserach {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(1, 231, 231);
+    padding: 5px;
+}
